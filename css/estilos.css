@@ -1,0 +1,144 @@
+*{
+    font-family: "Tahoma";
+}
+
+body{
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+.general{
+    /* border: 2px solid red; */
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*======================================ESTILOS DE ENTRADA TEXTO============================================*/
+.entradatexto_input{
+    color: black;
+    /* border: 1px solid #E5E5E5; */
+    border-radius: 5px;
+    padding: 5px;
+    background-color:#E5E5E5;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+    border: none;
+    outline: none; 
+}
+
+.botones{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.button-encriptar{
+    background-color: #D8DFE8;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px  hsl(219deg, 9%, 45%) solid;
+    color:  #0A3871;
+    font-size: 0.9em;
+    font-weight: 700;
+    gap: 16px;
+}
+
+.button-encriptar:hover{
+    cursor: pointer;
+    background-color: #0A3871;
+    color: rgb(255, 255, 255);
+
+}
+
+.button-desencriptar{
+    background-color: #D8DFE8;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px  hsl(219deg, 9%, 45%) solid;
+    color:  #0A3871;
+    font-size: 0.9em;
+    font-weight: 700;
+    gap: 16px;
+}
+
+.button-desencriptar:hover{
+    cursor: pointer;
+    background-color: #0A3871;
+    color: rgb(255, 255, 255);
+
+}
+
+/*======================================ESTILOS DE SALIDA TEXTO============================================*/
+.salidatexto{
+    margin-left: 350px;
+    /* border: 2px solid rgb(0, 2, 128); */
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    margin-right: 100px;
+    padding-left: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    background:#fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card{
+    /* border: 2px solid rgb(128, 98, 0); */
+    width: 290px;
+    height: 400px;
+    margin-top: 20px; 
+    overflow: hidden;
+    background-image: url("/images/Muñeco.jpg");
+    background-repeat: no-repeat;
+    border: none;
+    outline: none; 
+
+}
+
+.container-btn{
+    /* border: 2px solid green; */
+    width: 250px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.btn-copiar{
+    border: 2px solid rgb(18, 218, 18);
+    background-color: #D8DFE8;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+    border: 2px  hsl(219deg, 9%, 45%) solid;
+    color:  #0A3871;
+    font-size: 0.9em;
+    font-weight: 700;
+    gap: 16px;
+}
+
+.btn-copiar:hover{
+    cursor: pointer;
+    background-color: rgb(61, 42, 238);
+    color: rgb(255, 255, 255);
+
+} 
