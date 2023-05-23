@@ -103,7 +103,7 @@ img {
     height: 400px;
     margin-top: 20px; 
     overflow: hidden;
-    background-image: url("/images/Muñeco.jpg");
+    background-image: url("./images/Muñeco.jpg");
     background-repeat: no-repeat;
     border: none;
     outline: none; 
